@@ -1,0 +1,28 @@
+
+No = id
+
+Menu = nama item
+
+Type = Isi: Drink/Snack/Main Dish/Snack. Menentukan tipe item, minuman: drink atau makanan: Snack/Main Dish/Snack.
+
+Sub Type = Isi = Drink/Bread/Dessert/Noodle/Topokki/Snack. Dibutuhkan untuk kategori makanan. JIka Type main dish maka : Noodle/ Topokki. Jika snack, maka snack manis: Bread/Dessert, atau snack gurih: Snack.
+
+Cook = isi = Mixed/Toast/Steamed/Iced/Soup/Fried/Boiled. Untuk kategori memasak food. Jika snack -> bread, maka Toast/Steamed. Jika Main dish -> soup/fried. Jika snack -> snack -> Fried/Boiled
+
+Top = Isi= Coffee/Chocolate/Tea/Milky/Fun/Cheesy/Fruity/Spicy/Savory. Untuk menentukan rasa Utama item. Jika drink maka : Coffee/Chocolate/Tea/Milky/Fun. Jika Snack-> bread, maka Milky/Chcolate/Cheesy/Fruity. JIka Snack -> Dessert -> Chocolate/Milky/Fruity/Milky/Chocolate/Tea/Fun. Untuk makanan : Savory/Spicy
+
+Base = Isi = Caramel/Milky/Rich/Chocolate/Tea/Fruity/Fun/Cheesy/Cheesy/Umami/Sour/Savory/Spicy/Sweet. Jika minuman : Caramel/Milky/Rich/Chocolate/Tea/Fruity/Fun. Jika snack -> bread -> Milky/Chocolate/Cheesy/Fruity. Jika main dish, maka Cheesy/Umami/Sour/Savory/Sweet.
+
+Sweet, Creamy, Fresh, Bitter, Spicy, Crispy, Soft , Cheesy, Seafood=  = Isi rating = 0 - 3.Untuk atribut menu.
+
+S, M, L = Harga tiap size. Untuk makanan harganya ada di L, karena tidak ada ukuran
+
+Recommended = 0/1
+
+Berikut atribut yang dipakai:
+- Drink = Type, Top, Base, Sweet, Creamy, Fresh, Bitter, Rating.
+- Food (Type = Main Dish) = Type, Sub Type, Cook, Tob, Base, Spicy, Cheesy, Rating. SUb type ada noodle/topokki.
+- Food (Type = Snack , Sub Type = Bread) = Type, SUb Type, Cook, Top, Base, Sweet, Creamy, Crispy.
+- Food (Type = Snack, Sub Type = Dessert, SUb Type, Top, Sweet, Creamy, Fresh.
+- Food (Type = Snack, Sub Type = Snack) = Type, Sub Type, Cook, Top, SPicy, Seafood, Cheesy
+

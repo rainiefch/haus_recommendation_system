@@ -1,0 +1,190 @@
+{
+  "normalizations": {
+    "coklat": "chocolate",
+    "cokelat": "chocolate",
+    "harag": "harga",
+    "hrg": "harga",
+    "brp": "berapa",
+    "ga": "tidak",
+    "gak": "tidak",
+    "g": "tidak",
+    "nggak": "tidak",
+    "engga": "tidak",
+    "enggak": "tidak",
+    "bgt": "banget",
+    "bgtt": "banget",
+    "spicy": "pedas",
+    "sweet": "manis",
+    "cheese": "cheesy",
+    "kopi": "coffee",
+    "teh": "tea",
+    "karamel": "caramel",
+    "keju": "cheesy",
+    "mkn": "makanan",
+    "minm": "minuman",
+    "choco": "chocolate",
+    "cr": "creamy",
+    "pedes": "pedas",
+    "manis bgt": "sangat manis",
+    "pedas bgt": "sangat pedas",
+    "mw": "mau",
+    "liat": "lihat",
+    "pengen": "mau",
+    "pingin": "mau",
+    "gimana": "bagaimana",
+    "cek": "lihat",
+    "rekomendasiin": "rekomendasi",
+    "tambahin": "tambah",
+    "hapusin": "hapus",
+    "bayarin": "bayar",
+    "batalin": "batal",
+    "nambahin": "tambah",
+    "pesen": "pesan",
+    "gmn": "bagaimana",
+    "tunjukin": "lihat",
+    "infokan": "info",
+    "kasih tau": "info",
+    "tau": "tahu",
+    "gw": "saya",
+    "gue": "saya",
+    "ane": "saya",
+    "aku": "saya"
+  },
+  "vocab": [
+    "rekomendasi", "bingung", "pilihin", "saran", "preferensi", "sesuai", "selera",
+    "halo", "hai", "hi", "pagi", "siang", "sore", "malam",
+    "boleh", "gas", "ayo", "baik", "oke", "ok", "mau", "yuk",
+    "minuman", "makanan", "keduanya", "both",
+    "cancel", "batal", "gajadi", "pesan", "order", "beli", "checkout",
+    "bayar", "payment", "pay", "qris", "cash", "transfer",
+    "harga", "berapa", "price", "cost",
+    "berat", "snack", "cemilan", "roti", "dessert",
+    "manis", "pedas", "asin", "creamy", "cheesy", "crispy", "seafood",
+    "tidak", "iya", "banget", "sangat", "normal", "sedang",
+    "lihat", "tambah", "hapus", "info", "tahu", "saya", "bagaimana",
+    "coba", "bisa", "tolong", "dong", "deh"
+  ],
+  "ignore_words": [
+    "pesan", "order", "beli", "tambah", "lagi", "mau", "dong", "saya",
+    "lihat", "daftar", "show", "cart", "keranjang", "jadi", "aja", "saja",
+    "tolong", "please", "hapus", "kurangi", "batalkan", "tidak", "eh",
+    "harga", "berapa", "price", "cost"
+  ],
+  "intent_patterns": {
+    "price": ["\\bharga\\b", "\\bberapa\\b", "\\bprice\\b", "\\bcost\\b", "\\bharganya\\b"],
+    "show_cart": [
+      "\\blihat pesanan\\b", "\\bdaftar pesanan\\b", "\\bpesanan saya\\b",
+      "\\blist pesanan\\b", "\\blist order\\b", "\\blihat order\\b",
+      "\\bshow cart\\b", "\\bshow order\\b", "\\bcart\\b", "\\bkeranjang\\b"
+    ],
+    "remove": ["\\bhapus\\b", "\\bkurangi\\b", "\\bbatalkan\\b", "\\btidak jadi\\b", "\\bgajadi\\b", "\\bga jadi\\b", "\\bremove\\b"],
+    "cancel": ["\\bcancel semua\\b", "\\bbatal semua\\b", "\\bkosongkan\\b", "\\bclear cart\\b", "\\bcancel pesanan\\b", "\\bbatalkan pesanan\\b", "\\bbatalkan order\\b", "\\bcancel order\\b"],
+    "payment_confirm": [
+      "\\blanjut pembayaran\\b", "\\bbayar pakai\\b", "\\bpakai cash\\b", "\\bcash aja\\b",
+      "\\bpakai qris\\b", "\\bpakai transfer\\b", "\\btransfer aja\\b", "\\bqris aja\\b"
+    ],
+    "pay": [
+      "\\bbayar\\b", "\\bmau bayar\\b", "\\bpayment\\b", "\\bcheckout\\b",
+      "\\blanjut pembayaran\\b", "\\bqris\\b", "\\btransfer\\b", "\\bcash\\b",
+      "\\bbayar pakai\\b", "\\bpakai cash\\b", "\\bpakai qris\\b", "\\bpakai transfer\\b"
+    ],
+    "recommendation": ["\\brekomendasi\\b", "\\bsaran\\b", "\\bbingung\\b", "\\bpilihin\\b"],
+    "menu": ["\\bmenu\\b", "\\bapa aja\\b", "\\bada apa\\b"],
+    "order": ["\\bpesan\\b", "\\border\\b", "\\bbeli\\b", "\\btambah\\b"],
+    "greeting": ["\\bhalo\\b", "\\bhai\\b", "\\bhi\\b"]
+  },
+  "scale_answers": {
+    "zero": ["tidak", "no", "ga", "gak", "nope", "engga", "enggak", "none", "tanpa"],
+    "one": ["sedikit", "normal", "medium", "sedang", "biasa", "standard", "mid"],
+    "two": ["banget", "sangat", "extra", "banyak", "very", "super", "pol", "abis"]
+  },
+  "yes_no_answers": {
+    "yes": ["iya", "ya", "mau", "boleh", "suka", "yes", "ok", "oke", "yep", "yup", "tentu", "pasti"],
+    "no": ["tidak", "no", "gak", "ga", "engga", "bukan", "nope", "nah", "nggak"]
+  },
+  "sweetness_answers": {
+    "high": ["sangat manis", "manis banget", "extra manis", "very sweet", "super sweet"],
+    "medium": ["manis", "sweet", "agak manis", "sedikit manis"]
+  },
+  "spicy_answers": {
+    "zero": ["tidak pedas", "ga pedas", "gak pedas", "no spicy", "no spici", "tanpa pedas"],
+    "medium": ["normal", "sedang", "medium", "biasa"],
+    "high": ["pedas", "sangat pedas", "extra pedas", "banget", "pedes banget", "very spicy"]
+  },
+  "food_subtypes": {
+    "Main Dish": ["berat", "main", "nasi", "heavy", "utama"],
+    "Side Dish": ["snack", "cemilan", "sampingan", "ringan", "side"],
+    "Bread": ["roti", "bread", "toast"],
+    "Dessert": ["dessert", "pencuci mulut", "sweet treat", "pudding"]
+  },
+  "combo_triggers": ["keduanya", "combo", "both", "dua", "kedua", "duanya"],
+  "drink_triggers": ["minum", "drink", "minuman", "minm"],
+  "food_triggers": ["makan", "food", "makanan", "mkn"],
+  "category_triggers": {
+    "Drink": ["minuman", "minum", "drink", "minm", "es", "juice", "jus", "boba", "kopi", "coffee", "tea", "teh"],
+    "Main Dish": ["makanan berat", "berat", "main dish", "nasi", "utama", "heavy"],
+    "Side Dish": ["snack", "cemilan", "camilan", "sampingan", "ringan", "side", "gorengan"],
+    "Bread": ["roti", "bread", "toast"],
+    "Dessert": ["dessert", "pencuci mulut", "pudding", "cake"],
+    "Tray": ["tray", "food tray", "paket", "paket tray"]
+  },
+  "nav_next": ["selanjutnya", "next", "lanjut", "berikutnya", "berikut", "selanjut"],
+  "nav_prev": ["sebelumnya", "prev", "back", "kembali", "sebelum", "previous"],
+  "size_aliases": {
+    "L": [
+      "l", "large", "besar", "gede", "gedhe", "geda",
+      "lrge", "lagre", "lrage", "laerge", "lareg", "larg", "lrg", "lager",
+      "besaar", "bsear", "bsar",
+      "ukuran l", "size l", "ukuran large", "size large", "ukuran besar",
+      "paling besar", "paling gede", "terbesar"
+    ],
+    "M": [
+      "m", "medium", "sedang", "sedeng", "sdang", "sdg",
+      "mdium", "medum", "mediun", "medim", "mdm", "meedium",
+      "sedng", "sedaang", "sedaan",
+      "ukuran m", "size m", "ukuran medium", "size medium", "ukuran sedang",
+      "tengah", "standar"
+    ],
+    "S": [
+      "s", "small", "kecil", "kecl", "kcil", "keci", "kecill",
+      "smll", "smal", "smaal", "smale", "smaall", "keciel", "keceel",
+      "ukuran s", "size s", "ukuran small", "size small", "ukuran kecil",
+      "paling kecil", "terkecil"
+    ]
+  },
+  "keyword_rules": {
+    "show_cart": [
+      ["lihat", 2], ["cek", 2], ["pesanan", 3], ["keranjang", 3],
+      ["cart", 3], ["order", 1], ["daftar", 2], ["tunjuk", 2], ["isi", 1]
+    ],
+    "price": [
+      ["harga", 3], ["berapa", 2], ["price", 3], ["cost", 2], ["mahal", 1]
+    ],
+    "order": [
+      ["pesan", 3], ["beli", 3], ["tambah", 2], ["mau", 1], ["order", 2]
+    ],
+    "remove": [
+      ["hapus", 3], ["kurang", 2], ["batal", 2], ["cancel", 2], ["buang", 2]
+    ],
+    "cancel": [
+      ["batal", 2], ["cancel", 2], ["semua", 1], ["kosong", 2], ["clear", 2]
+    ],
+    "pay": [
+      ["bayar", 3], ["payment", 3], ["checkout", 2],
+      ["qris", 3], ["transfer", 2], ["cash", 2], ["tunai", 2]
+    ],
+    "recommendation": [
+      ["rekomendasi", 3], ["saran", 3], ["bingung", 2], ["pilih", 1],
+      ["pilihkan", 2], ["rekomendasiin", 3], ["enaknya", 2], ["suggest", 2]
+    ],
+    "menu": [
+      ["menu", 3], ["daftar", 2], ["ada", 1], ["apa", 1], ["list", 2],
+      ["makanan", 2], ["minuman", 2], ["berat", 2], ["snack", 2], ["roti", 2], ["dessert", 2]
+    ],
+    "greeting": [
+      ["halo", 3], ["hai", 3], ["hi", 3], ["selamat", 2],
+      ["pagi", 2], ["siang", 2], ["sore", 2], ["malam", 2], ["hei", 3]
+    ]
+  },
+  "keyword_threshold": 2
+}

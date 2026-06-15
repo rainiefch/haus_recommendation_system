@@ -1,0 +1,242 @@
+[
+  {
+    "Tray": "Cimol Mozzarella Cheese Sauce with Mango Yakult",
+    "Food": "Cimol Mozzarella Gwenchana Cheese Sauce",
+    "Drink": "Ice Mango mix Yakult",
+    "Price": "55"
+  },
+  {
+    "Tray": "Cimol Mozzarella Cheese Powder with Mango Yakult",
+    "Food": "Cimol Mozzarella Gwenchana Cheese Powder",
+    "Drink": "Ice Mango mix Yakult",
+    "Price": "45"
+  },
+  {
+    "Tray": "Ramyeon Tray Choco Cheese Crunchy",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Choco Cheese Crunchy",
+    "Price": "57"
+  },
+  {
+    "Tray": "Ramyeon Tray Drink Beng Beng",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Drink Beng-Beng Cream Caramel",
+    "Price": "57"
+  },
+  {
+    "Tray": "Ramyeon Tray Thai Tea",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Thai Tea",
+    "Price": "45"
+  },
+  {
+    "Tray": "Ramyeon Tray Green Thai Tea",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Green Thai Tea",
+    "Price": "46"
+  },
+  {
+    "Tray": "Ramyeon Tray Taro",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Taro",
+    "Price": "47"
+  },
+  {
+    "Tray": "Ramyeon Tray Choco Ovaltine",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Choco Ovaltine",
+    "Price": "47"
+  },
+  {
+    "Tray": "Ramyeon Tray Choco Hazelnut",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Choco Hazelnut",
+    "Price": "50"
+  },
+  {
+    "Tray": "Ramyeon Tray Choco Lava ",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Choco Lava",
+    "Price": "50"
+  },
+  {
+    "Tray": "Ramyeon Tray Choco Avocado",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Choco Avocado",
+    "Price": "50"
+  },
+  {
+    "Tray": "Ramyeon Tray Boba Brown Sugar Fresh Milk",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Boba Brown Sugar Fresh Milk",
+    "Price": "51"
+  },
+  {
+    "Tray": "Ramyeon Tray Boba Brown Sugar Milk Tea",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Boba Brown Sugar Milk Tea",
+    "Price": "51"
+  },
+  {
+    "Tray": "Ramyeon Tray Jasmine Tea",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Jasmine Tea",
+    "Price": "41"
+  },
+  {
+    "Tray": "Ramyeon Tray Fresh Lemon Tea ",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Fresh Lemon Tea",
+    "Price": "41"
+  },
+  {
+    "Tray": "Ramyeon Tray Lychee Tea",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Lychee Tea",
+    "Price": "47"
+  },
+  {
+    "Tray": "Ramyeon Tray Mango Tea",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Mango Tea",
+    "Price": "47"
+  },
+  {
+    "Tray": "Ramyeon Tray Strawberry Tea",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Strawberry Tea",
+    "Price": "47"
+  },
+  {
+    "Tray": "Ramyeon Tray Cookies & Cream",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Cookies & Cream",
+    "Price": "47"
+  },
+  {
+    "Tray": "Ramyeon Tray Cotton Candy",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Cotton Candy",
+    "Price": "47"
+  },
+  {
+    "Tray": "Ramyeon Tray Mango Yakult",
+    "Food": "Spicy Cheese Ramyeon",
+    "Drink": "Ice Mango mix Yakult",
+    "Price": "51"
+  },
+  {
+    "Tray": "Snack Tray Choco Cheese Crunchy",
+    "Food": "Otteoke Cheese",
+    "Drink": "Choco Cheese Crunchy",
+    "Price": "56"
+  },
+  {
+    "Tray": "Snack Tray Drink Beng Beng",
+    "Food": "Otteoke Cheese",
+    "Drink": "Drink Beng-Beng Cream Caramel",
+    "Price": "56"
+  },
+  {
+    "Tray": "Snack Tray Thai Tea",
+    "Food": "Otteoke Cheese",
+    "Drink": "Thai Tea",
+    "Price": "40"
+  },
+  {
+    "Tray": "Snack Tray Green Thai Tea",
+    "Food": "Otteoke Cheese",
+    "Drink": "Green Thai Tea",
+    "Price": "41"
+  },
+  {
+    "Tray": "Snack Tray Taro",
+    "Food": "Otteoke Cheese",
+    "Drink": "Taro",
+    "Price": "46"
+  },
+  {
+    "Tray": "Snack Tray Choco Ovaltine",
+    "Food": "Otteoke Cheese",
+    "Drink": "Choco Ovaltine",
+    "Price": "46"
+  },
+  {
+    "Tray": "Snack Tray Choco Hazelnut",
+    "Food": "Otteoke Cheese",
+    "Drink": "Choco Hazelnut",
+    "Price": "49"
+  },
+  {
+    "Tray": "Snack Tray Choco Lava ",
+    "Food": "Otteoke Cheese",
+    "Drink": "Choco Lava",
+    "Price": "49"
+  },
+  {
+    "Tray": "Snack Tray Choco Avocado",
+    "Food": "Otteoke Cheese",
+    "Drink": "Choco Avocado",
+    "Price": "49"
+  },
+  {
+    "Tray": "Snack Tray Boba Brown Sugar Fresh Milk",
+    "Food": "Otteoke Cheese",
+    "Drink": "Boba Brown Sugar Fresh Milk",
+    "Price": "50"
+  },
+  {
+    "Tray": "Snack Tray Boba Brown Sugar Milk Tea",
+    "Food": "Otteoke Cheese",
+    "Drink": "Boba Brown Sugar Milk Tea",
+    "Price": "50"
+  },
+  {
+    "Tray": "Snack Tray Jasmine Tea",
+    "Food": "Otteoke Cheese",
+    "Drink": "Jasmine Tea",
+    "Price": "37"
+  },
+  {
+    "Tray": "Snack Tray Fresh Lemon Tea ",
+    "Food": "Otteoke Cheese",
+    "Drink": "Fresh Lemon Tea",
+    "Price": "37"
+  },
+  {
+    "Tray": "Snack Tray Lychee Tea",
+    "Food": "Otteoke Cheese",
+    "Drink": "Lychee Tea",
+    "Price": "46"
+  },
+  {
+    "Tray": "Snack Tray Mango Tea",
+    "Food": "Otteoke Cheese",
+    "Drink": "Mango Tea",
+    "Price": "46"
+  },
+  {
+    "Tray": "Snack Tray Strawberry Tea",
+    "Food": "Otteoke Cheese",
+    "Drink": "Strawberry Tea",
+    "Price": "43"
+  },
+  {
+    "Tray": "Snack Tray Cookies & Cream",
+    "Food": "Otteoke Cheese",
+    "Drink": "Cookies & Cream",
+    "Price": "46"
+  },
+  {
+    "Tray": "Snack Tray Cotton Candy",
+    "Food": "Otteoke Cheese",
+    "Drink": "Cotton Candy",
+    "Price": "46"
+  },
+  {
+    "Tray": "Snack Tray Mango Yakult",
+    "Food": "Otteoke Cheese",
+    "Drink": "Ice Mango mix Yakult",
+    "Price": "50"
+  }
+]

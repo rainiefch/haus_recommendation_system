@@ -1,0 +1,68 @@
+IF Supertype = Drink THEN
+    INPUT Primary = Coffee / Chocolate / Tea / Milky / Fruity / Taro / Cotton Candy / Yakult / Bubble Gum
+    INPUT Secondary = Caramel / Milky / Hazelnut / Avocado / Chocolate / Tea / Fruity / Cheesy
+    INPUT Sweet = 1 – 2
+    INPUT Creamy = 0 – 2
+    PROCESS
+ELSE IF Supertype = Food THEN
+    INPUT Type = Main Dish / Snack
+    IF Type = Main Dish THEN
+        INPUT Subtype = Noodle / Topokki
+        IF Subtype = Noodle THEN
+            INPUT Serving_type = Soup / Fried
+            INPUT Spiciness = 0 – 2
+            INPUT Cheesiness = 0 – 2
+            PROCESS
+        ELSE IF Subtype = Topokki THEN
+            INPUT Spiciness = 1 – 2
+            INPUT Cheesiness = 0 – 1
+            PROCESS
+    ELSE IF Type = Snack THEN
+        INPUT Subtype = Salty / Dessert / Bread
+        IF Subtype = Salty THEN
+            INPUT Serving_type = Fried / Steamed / Soup
+            INPUT Spiciness = 0 – 1
+            INPUT Seafood = 0 / 1
+            PROCESS
+        ELSE IF Subtype = Bread THEN
+            INPUT Serving_type = Toast / Steamed
+            INPUT Primary = Milky / Chocolate / Cheesy / Fruity
+            INPUT Secondary = Milky / Chocolate / Cheesy / Fruity
+            PROCESS
+        ELSE IF Subtype = Dessert THEN
+            INPUT Primary = Chocolate / Milky / Fruity / Tea / Cotton Candy / Bubble Gum
+            PROCESS
+
+
+ada data dengan rows seperti ini:
+No = id
+
+Menu = nama item
+
+Supertype = Isi : Drink/Food
+
+Type = Isi: None/Snack/Main Dish/Snack. Menentukan tipe item, minuman: drink atau makanan: Snack/Main Dish/Snack.
+
+Subtype = Isi = None/Bread/Dessert/Noodle/Topokki/Salty. Dibutuhkan untuk kategori makanan. JIka Type main dish maka : Noodle/ Topokki. Jika snack, maka snack manis: Bread/Dessert, atau snack gurih: Snack.
+
+Cook = isi = None/Toast/Steamed/Fried/Boiled. Untuk kategori memasak food. Jika snack -> bread, maka Toast/Steamed. Jika Main dish -> boiled/fried. Jika snack -> snack -> Fried/Boiled
+
+Top = Isi= None/Coffee/Chocolate/Tea/Milky/Fun/Cheesy/Fruity/. Untuk menentukan rasa Utama item. Jika drink maka : Coffee/Chocolate/Tea/Milky/Fun. Jika Snack-> bread, maka Milky/Chcolate/Cheesy/Fruity. JIka Snack -> Dessert -> Chocolate/Milky/Fruity/Milky/Chocolate/Tea/Fun. Untuk makanan : Savory/Spicy
+
+Base = Isi = None/Caramel/Milky/Rich/Chocolate/Tea/Fruity/Fun/Cheesy. Jika minuman : Caramel/Milky/Rich/Chocolate/Tea/Fruity/Fun. Jika snack -> bread -> Milky/Chocolate/Cheesy/Fruity. Jika main dish, maka Cheesy/Umami/Sour/Savory/Sweet.
+
+Sweet, Spicy, Cheesy  = Isi rating = 0 - 3.Untuk atribut menu.
+
+Creamy, Crispy, seafood = Isi 0 or 1
+
+S, M, L = Harga tiap size. Untuk makanan harganya ada di L, karena tidak ada ukuran
+
+Recommended = 0/1
+
+Berikut atribut yang dipakai:
+- Drink = Type, Top, Base, Sweet, Creamy, Fresh, Rating.
+- Food (Type = Main Dish) = Type, Sub Type, Cook, Tob, Base, Spicy, Cheesy, Rating. SUb type ada noodle/topokki.
+- Food (Type = Snack , Sub Type = Bread) = Type, SUb Type, Cook, Top, Base, Sweet, Creamy, Crispy.
+- Food (Type = Snack, Sub Type = Dessert, SUb Type, Top, Sweet, Creamy, Fresh.
+- Food (Type = Snack, Sub Type = Snack) = Type, Sub Type, Cook, Top, SPicy, Seafood, Cheesy
+
